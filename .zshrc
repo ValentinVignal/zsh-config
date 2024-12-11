@@ -18,3 +18,7 @@ ZSH_CUSTOM=~/zsh
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git shrink-path)
 
+# ... 
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
